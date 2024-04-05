@@ -2,10 +2,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- *
- * @author USUARIO
- */
+
 public class vectorj {
 
     public static void main(String[] args) {
@@ -13,12 +10,12 @@ public class vectorj {
         ArrayList<String> vacio = new ArrayList();
 
         ArrayList<String> deportes = new ArrayList();
-        jugadores.add("futbol");
-        jugadores.add("baloncesto");
-        jugadores.add("tenis");
-        jugadores.add("veisbol");
-        jugadores.add("bmx");
-        jugadores.add("atletismo");
+        deportes.add("futbol");
+        deportes.add("baloncesto");
+        deportes.add("tenis");
+        deportes.add("veisbol");
+        deportes.add("bmx");
+        deportes.add("atletismo");
 
         System.out.println("longitud de la lista vacia: " + vacio.size());
         System.out.println("longitud de la lista deportes: " + deportes.size());
